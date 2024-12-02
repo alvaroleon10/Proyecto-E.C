@@ -1,0 +1,65 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "Cómo aprender JavaScript",
+      "content": "JavaScript es un lenguaje de programación muy usado hoy en día. Aquí tienes algunos consejos para comenzar.",
+      "authorId": 1
+    },
+    {
+      "id": "2",
+      "title": "Introducción al Desarrollo Web",
+      "content": "El desarrollo web incluye todo lo relacionado con la creación de sitios web modernos.",
+      "authorId": 2
+    },
+    {
+      "id": "3",
+      "title": "La dificultad de DAW",
+      "content": "DAW es un grado superior de desarrollo de aplicaciones web, en el cual se presentan muchas adversidades pero una gran oportunidad de cara al futuro.",
+      "authorId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Álvaro León",
+      "email": "alvaroleon@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Marta Navarro",
+      "email": "martanavarro@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Lola Flores",
+      "email": "lolaflores@gmail.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "comment": "¡Gran artículo! Muy informativo.",
+      "userId": 2,
+      "articleId": 1
+    },
+    {
+      "id": "2",
+      "comment": "Gracias por compartir, me sirvió mucho.",
+      "userId": 1,
+      "articleId": 2
+    },
+    {
+      "id": "3",
+      "comment": "Este artículo es muy útil",
+      "userId": 1,
+      "articleId": 1
+    },
+    {
+      "id": "94d3",
+      "comment": "Es más complicado que ganarle una pelea a Ilia Topuria",
+      "userId": 3,
+      "articleId": 3
+    }
+  ]
+}
